@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html >
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <title>Wikipedia Viewer</title>
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
@@ -15,7 +16,7 @@
 
   <div class="container" id="search">
     <div class="row">
-      <div class="col-xs-6 col-xs-offset-3">
+      <div class="col-sm-6 col-sm-offset-3">
         <div class="input-group">
           <input type="text" class="form-control" placeholder="Search Wikipedia" id="value">
           <span class="input-group-btn">
@@ -25,8 +26,9 @@
       </div>    <!-- /.col-xs-6 -->
     </div>  <!-- /.row -->
     <p class="text-center" id="lucky"><a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">Feeling lucky?</a></p>
-    <div class="container" id="results"></di>
     </div>
+
+    <div class="container" id="results"></div>
 
   </body>
   <footer class="text-center">
