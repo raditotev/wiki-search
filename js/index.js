@@ -23,7 +23,7 @@ function getPages() {
 
     });
 
-    $("img").animate({width: '25%'});
+    $("img").animate({width: '23%'});
     $("#search").animate({'margin-top': '-11%'});
     $('#results').html(output);
   });
